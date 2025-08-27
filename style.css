@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* General body style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+#about {
+color: blue;
+}
+#projects {
+    color: #222;
+}
+/* Header style */
+header {
+  text-align: center;
+  background: #da0b0b;
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 10px1;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size-adjust: initial;
+}
+
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* Section style */
+section {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Project list */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+  border-radius: 10px;
+}
